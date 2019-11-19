@@ -1,10 +1,10 @@
-package by.unit1.task;
+package by.unit1.task.modul1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Function {
+public class Task1 {
     // найти значение функции
 
 

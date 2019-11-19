@@ -1,10 +1,10 @@
-package by.unit1.task;
+package by.unit1.task.modul1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Function2 {
+public class Task2 {
     public static void main(String[] args) throws IOException {
         double a, b, c, d;
         BufferedReader reader;
