@@ -1,4 +1,4 @@
-package by.unit1.task.modul1;
+package by.unit1.task.modul1.line;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,6 +20,7 @@ public class Task3 {
         yRadian = Math.toRadians(y);
         divisor = Math.cos(xRadian) - Math.sin(yRadian);
         System.out.println(divisor);
+
         while (divisor == 0){
             System.out.println("division by zero" + "\n" + "Enter x, y");
             x = Double.parseDouble(reader.readLine());
@@ -29,9 +30,10 @@ public class Task3 {
             divisor = Math.cos(xRadian) - Math.sin(yRadian);
 
         }
+
         z = (Math.sin(x) + Math.cos(y)/divisor) * Math.tan(x*y);
         System.out.println(z);
-
+        reader.close();
         }
 
 

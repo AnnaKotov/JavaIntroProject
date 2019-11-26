@@ -1,4 +1,4 @@
-package by.unit1.task.modul1;
+package by.unit1.task.modul1.line;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -31,7 +31,7 @@ public class Task4 {
 
         num = Double.parseDouble(num_txt);
         System.out.println(num);
-
+        reader.close();
 
 
 

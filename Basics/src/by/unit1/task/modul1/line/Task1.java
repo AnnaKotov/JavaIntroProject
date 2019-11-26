@@ -1,4 +1,4 @@
-package by.unit1.task.modul1;
+package by.unit1.task.modul1.line;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,6 +19,8 @@ public class Task1 {
         b = Double.parseDouble(reader.readLine());
         System.out.print("Enter c: ");
         c = Double.parseDouble(reader.readLine());
+        reader.close();
+
         z = ((a-3) * b/2) + c;
         System.out.println("z = ((a-3) * b/2) + c" +"\n" + "z = " + z);
 
