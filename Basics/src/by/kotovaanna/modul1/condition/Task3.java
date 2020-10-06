@@ -1,4 +1,4 @@
-package by.unit1.task.modul1.condition;
+package by.kotovaanna.modul1.condition;
 
 import java.io.BufferedReader;
 import java.io.IOException;

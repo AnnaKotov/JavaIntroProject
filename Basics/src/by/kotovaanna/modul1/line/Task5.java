@@ -1,4 +1,4 @@
-package by.unit1.task.modul1.line;
+package by.kotovaanna.modul1.line;
 
 import java.io.BufferedReader;
 import java.io.IOException;
